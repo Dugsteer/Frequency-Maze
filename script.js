@@ -83,48 +83,40 @@ let d;
 // Arrays for top text and text on left and right
 
 const problemSentences = [
-  "She are happy because it is her birthday.",
+  "Does every day Betsy have a bath?",
   false,
-  "Luc and Pierre are playing football",
+  "Tina visits her treehouse every Tuesday",
   true,
-  "Where is the cinema is?",
+  "Ahmed does always Parkour on Saturday",
   false,
-  "Are you can swim?",
-  false,
-  "Are you from Spain?",
+  "Daryl sometimes goes surfing",
   true,
-  "Are you like pizza?",
+  "Milly, Molly and Mark visit often their Grandparents",
   false,
-  "Dad at work today.",
+  "Ben eats big burgers usually for breakfast",
   false,
-  "Her cat is black?",
-  false,
-  "Blanquita is a white dog.",
+  "Milo rarely gets up before 11.00am",
   true,
-  "Why are you crying?",
-  true,
-  "My brother and I am doing our homework.",
+  "Luka twice a day eats ice cream",
   false,
-  "We are eating a picnic",
+  "Tommy rarely takes out his trash",
   true,
-  "Is they from London?",
+  "Archie often is angry",
   false,
-  "Are Ian and Martina on holiday this week?",
-  true,
-  "I am like tennis",
-  false
+  "Our teachers go often cycling",
+  false,
+  "Lily always listens to music in the evening",
+  true
 ];
 
 const correctedSentences = [
-  "She is happy because it is her birthday.",
-  "Where is the cinema?",
-  "Can you swim?",
-  "Do you like pizza?",
-  "Dad is at work today.",
-  "Is her cat black?",
-  "My brother and I are doing our homework.",
-  "Are they from London?",
-  "I like tennis."
+  "Does Betsy have a bath every day?",
+  "Ahmed always does Parkour on Saturday",
+  "Milly, Molly and Mark often visit their Grandparents",
+  "Ben usually eats big burgers for breakfast",
+  "Luka eats ice cream twice a day eats",
+  "Archie often is angry",
+  "Our teachers often go cycling"
 ];
 
 // Remove the landing page and/or return user to the start
@@ -167,7 +159,7 @@ function nextOne() {
   topText.style.visibility = "hidden";
   logOut.style.visibility = "hidden";
   questionText.innerText = problemSentences[place];
-  image.src = `img/to-be-maze/slide${d/2}.jpg`;
+  image.src = `img/frequency-maze/slide${d/2}.jpeg`;
 }
 }
 
