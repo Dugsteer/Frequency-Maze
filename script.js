@@ -114,8 +114,8 @@ const correctedSentences = [
   "Ahmed always does Parkour on Saturday",
   "Milly, Molly and Mark often visit their Grandparents",
   "Ben usually eats big burgers for breakfast",
-  "Luka eats ice cream twice a day eats",
-  "Archie often is angry",
+  "Luka eats ice cream twice a day",
+  "Archie is often angry",
   "Our teachers often go cycling"
 ];
 
